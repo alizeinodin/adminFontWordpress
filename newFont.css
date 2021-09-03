@@ -1,0 +1,16 @@
+@font-face {
+    font-family: IRANSans;
+    font-weight: normal;
+    src: url("fonts/eot/IRANSansWeb.eot") format("embedded-opentype"),
+    url("fonts/ttf/IRANSansWeb.ttf") format("truetype"),
+    url("fonts/woff/IRANSansWeb.woff") format("woff"),
+    url("fonts/woff2/IRANSansWeb.woff2") format("woff2");
+}
+body{font-family: IRANSans !important;}
+
+.rtl #wpadminbar a, .ab-label{
+    font-family: IRANSans !important;
+}
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6{
+    font-family: IRANSans;
+}
